@@ -1,0 +1,64 @@
+body {
+  background-image: url(../images/R.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+h1 {
+  font-size:300%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  color: green;
+  font-family: 'Sofia', cursive;
+}
+
+h2 {
+  font-size:200%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: green;
+  font-family: 'Sofia', cursive;
+}
+
+h3 {
+  font-size:150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: green;
+  font-family: 'Sofia', cursive;
+}
+
+header{
+  font-size:500%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: double;
+  color: green;
+}
+
+.titre {
+  font-size:200%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+img {
+  opacity: 0.8;
+}
+img:hover {
+  opacity: 1.0;
+}
+section {
+  background: white;
+  width: 400px;
+  border-radius: 10px;
+}
+#conteneur{
+  display: flex;
+  justify-content: center;
+}
